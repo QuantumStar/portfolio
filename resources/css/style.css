@@ -3,7 +3,7 @@ body {
   flex-direction: column;
   align-self: center;
   font-family: 'Comic Sans MS';
-  background-color: #6f85a8;
+  background-color: black;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -109,12 +109,21 @@ a:hover{
   border-top-right-radius: 10px;
   display: block;
   width: 100%;
-  max-height: auto;
+  height: 210px;
 }
 
-.slideText {
+.tileText {
+  display: flex;
+  flex-direction: column;
   padding: 16px;
-  max-height: 200px;
-  align-self: center;
+  height: 200px;
+  width: 288px;
   text-shadow: 2px 2px 2px rgb(255, 248, 220);
+  justify-content: center;
+}
+
+.tileText h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
