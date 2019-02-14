@@ -3,10 +3,12 @@ body {
   flex-direction: column;
   align-self: center;
   font-family: 'Comic Sans MS';
-  background-color: black;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: auto;
+  height: 100%;
+  background-image: url("../images/code-wallpaper-2.jpg");
+  background-position: center;
 }
 
 a:-webkit-any-link {
@@ -88,7 +90,7 @@ a:hover{
   height: auto;
   justify-content: center;
   margin-bottom: 32px;
-  padding-top: 48px;
+  padding-top: 64px;
 }
 
 .tile {
@@ -119,11 +121,90 @@ a:hover{
   height: 200px;
   width: 288px;
   text-shadow: 2px 2px 2px rgb(255, 248, 220);
-  justify-content: center;
+  justify-content: flex-start;
+
 }
 
 .tileText h2 {
+  align-items: center;
   display: flex;
   width: 100%;
   justify-content: center;
+}
+
+.tileText h4 {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.contactTileContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin-top: 96px;
+  margin-bottom: 32px;
+  justify-content: center;
+}
+
+.contactTile {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  height: auto;
+  width: auto;
+  text-shadow: 2px 2px 2px rgb(255, 248, 220);
+  justify-content: flex-start;
+  border: solid 2px white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
+  background-color: silver;
+  word-break: break-all;
+}
+
+
+
+.contactTile img {
+  display: flex;
+  padding-right: 10px;
+  border-radius: 10px;
+  height: 300px;
+  width: auto;
+}
+
+.contactTileText {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  max-width: 100%;
+}
+
+.contactTileText ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: auto;
+}
+
+.projectsTile {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  text-shadow: 2px 2px 2px rgb(255, 248, 220);
+  justify-content: space-around;
+  border: solid 2px white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
+  background-color: silver;
+  word-break: break-all;
+  margin-top: 96px;
+  margin-bottom: 32px;
+}
+
+.projectsTile li {
+  font-size: 2em;
 }
