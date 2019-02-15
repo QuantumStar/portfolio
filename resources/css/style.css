@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
 body {
   display: flex;
   flex-direction: column;
@@ -6,11 +7,12 @@ body {
   font-family: 'Alegreya Sans';
   margin: 0;
   padding: 0;
-  width: auto;
-  height: 100%;
-  background-image: url("https://c.pxhere.com/photos/b4/9c/lake_erie_lake_water_buffalo_lighthouse_sunset_orange_harbor-719098.jpg!d");
+  width: 100%;
+  height: auto;
+  background-image: url("../images/RoadRider.jpg");
   background-position: center;
   background-size: cover;
+  background-color: orange;
 }
 
 a:-webkit-any-link {
