@@ -115,9 +115,18 @@ a:hover{
 
 .tileText {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 16px;
   width: 288px;
+  justify-content: center;
+  align-content: center;
+}
+
+.tileText img {
+  display: flex;
+  max-height: 48px;
+  width: auto;
+  padding: 12px;
 }
 
 .tileText h2 {
