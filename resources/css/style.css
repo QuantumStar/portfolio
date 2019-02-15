@@ -162,6 +162,7 @@ a:hover{
   display: flex;
   flex-direction: row;
   padding: 16px;
+  margin: 0px 16px 0px 16px;
   height: auto;
   width: auto;
   text-shadow: none;
