@@ -36,12 +36,13 @@ a:-webkit-any-link {
 }
 
 a {
-  color:#5b5b5b;
+  color: white;
+  text-shadow: 2px 2px 2px gray;
 }
 
 a:hover{
-  color: white;
-  text-shadow: 2px 2px 2px rgba(255, 144, 0, 1);
+  text-shadow: 2px 2px 6px #ff9000,-2px -2px 6px #ff9000, -2px 2px 2px #ff9000, 2px -2px 2px #ff9000;
+  font-style: italic;
 }
 
 .logo {
@@ -52,8 +53,7 @@ a:hover{
 .logo h1 {
   align-self: center;
   font-size: 2em;
-  font-style: italic;
-  text-shadow: 2px 2px 2px white;
+  font-weight: normal;
   margin-right: 6px;
   font-weight: bold;
   margin: 0px 3px 0px 3px;
@@ -78,7 +78,6 @@ a:hover{
   align-self: center;
   font-size: 1.5em;
   padding: 0 16px 0 0;
-  text-shadow: 2px 2px 2px white;
   list-style-type: none;
 }
 
@@ -119,7 +118,6 @@ a:hover{
   flex-direction: column;
   padding: 16px;
   width: 288px;
-  text-shadow: 2px 2px 2px rgb(255, 248, 220);
 }
 
 .tileText h2 {
@@ -154,16 +152,15 @@ a:hover{
   padding: 16px;
   height: auto;
   width: auto;
-  text-shadow: 2px 2px 2px rgb(255, 248, 220);
+  text-shadow: none;
   justify-content: flex-start;
   border: solid 2px white;
   border-radius: 10px;
   box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
   background-color: silver;
   word-break: break-all;
+  font-weight: bold;
 }
-
-
 
 .contactTile img {
   display: flex;
@@ -180,6 +177,10 @@ a:hover{
   max-width: 100%;
 }
 
+.contactTileText h1 {
+  text-decoration: underline;
+}
+
 .contactTileText ul {
   display: flex;
   flex-direction: column;
@@ -192,20 +193,34 @@ a:hover{
   align-self: center;
   display: flex;
   flex-direction: column;
-  padding: 16px;
-  text-shadow: 2px 2px 2px rgb(255, 248, 220);
+  padding: 16px 16px 32px 16px;
   justify-content: space-around;
   border: solid 2px white;
   border-radius: 10px;
   box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
   background-color: silver;
-  word-break: break-all;
   margin-top: 96px;
   margin-bottom: 32px;
+  max-width: 80%;
 }
 
+.projectsTile ul {
+  margin: 0 32px 0 32px;
+}
 .projectsTile li {
-  font-size: 1.5em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.projectsTile h1 {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.projectsTile h3 {
+  padding: 0 32px 0 32px;
+  font-style: italic;
 }
 
 .aboutPictureFrame {
