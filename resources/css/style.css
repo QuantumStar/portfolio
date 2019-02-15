@@ -7,8 +7,9 @@ body {
   padding: 0;
   width: auto;
   height: 100%;
-  background-image: url("../images/code-wallpaper-2.jpg");
-  background-position: center;
+  background-image: url("../images/sunset.jpg");
+  background-color: black;
+  background-size: cover;
 }
 
 a:-webkit-any-link {
@@ -127,6 +128,7 @@ a:hover{
   max-height: 48px;
   width: auto;
   padding: 12px;
+  padding-right: 0px;
 }
 
 .tileText h2 {
@@ -188,6 +190,7 @@ a:hover{
 
 .contactTileText h1 {
   text-decoration: underline;
+  align-self: center;
 }
 
 .contactTileText ul {
