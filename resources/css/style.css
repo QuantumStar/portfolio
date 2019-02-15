@@ -8,7 +8,9 @@ body {
   padding: 0;
   width: auto;
   height: 100%;
-  background-image: url("../images/background.png");
+  background-image: url("https://c.pxhere.com/photos/b4/9c/lake_erie_lake_water_buffalo_lighthouse_sunset_orange_harbor-719098.jpg!d");
+  background-position: center;
+  background-size: cover;
 }
 
 a:-webkit-any-link {
