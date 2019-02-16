@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background: url("../images/RoadRider.jpg") no-repeat center center fixed; 
+  background: url("../images/RoadRider.jpg") no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -160,8 +160,6 @@ a:hover{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 100%;
-  min-height: 100%;
   margin-top: 96px;
   margin-bottom: 32px;
   justify-content: center;
@@ -254,6 +252,11 @@ a:hover{
 .projectsTile h3 {
   padding: 0 32px 0 32px;
   font-weight: normal;
+}
+
+.projectsTile p {
+  font-style: italic;
+  margin-top: 4px;
 }
 
 .aboutText {
