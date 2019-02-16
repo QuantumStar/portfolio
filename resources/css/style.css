@@ -153,7 +153,8 @@ a:hover{
   display: flex;
   justify-content: center;
   word-wrap: normal;
-  align-self: center;
+  align-self: flex-start;
+
 }
 
 .contactTileContainer {
