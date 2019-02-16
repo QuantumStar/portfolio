@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
 
+html, body {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -7,11 +11,12 @@ body {
   font-family: 'Alegreya Sans';
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: auto;
-  background-image: url("../images/RoadRider.jpg");
-  background-position: center;
-  background-size: cover;
+  min-height: 100%;
+  background: url("../images/RoadRider.jpg") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
   background-color: orange;
 }
 
@@ -156,7 +161,7 @@ a:hover{
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  height: auto;
+  min-height: 100%;
   margin-top: 96px;
   margin-bottom: 32px;
   justify-content: center;
@@ -260,6 +265,7 @@ a:hover{
 }
 
 .aboutText h1 {
+  height: 100%;
   justify-content: center;
   align-self: center;
   text-shadow: 2px 2px 2px gray;
