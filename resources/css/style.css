@@ -171,7 +171,6 @@ a:hover{
   flex-direction: row;
   padding: 16px;
   margin: 0px 16px 0px 16px;
-  height: auto;
   width: auto;
   text-shadow: none;
   justify-content: flex-start;
@@ -194,7 +193,6 @@ a:hover{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  max-width: 100%;
 }
 
 .contactTileText h1 {
@@ -202,6 +200,17 @@ a:hover{
   align-self: center;
   color: white;
   text-shadow: 2px 2px 2px gray;
+  padding-left: 16px;
+  font-size: 2.5em;
+}
+
+.contactTile h3 {
+  align-self: center;
+  text-shadow: 2px 2px 2px gray;
+  color: white;
+  font-size: 2em;
+  font-style: italic;
+  margin: 0px;
 }
 
 .contactTileText ul {
@@ -209,14 +218,16 @@ a:hover{
   flex-direction: column;
   justify-content: space-around;
   height: 100%;
-  width: 100%;
+  width: auto;
   text-shadow: 2px 2px 2px gray;
   font-size: 1.8em;
 }
 
 .contactTileText ul li a {
   padding-left: 8px;
+  padding-right: 8px;
   font-size: 0.8em;
+  width: 100%;
 }
 
 .projectsTile {
