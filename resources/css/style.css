@@ -135,7 +135,7 @@ a:hover{
 .tileText img {
   display: flex;
   max-height: 48px;
-  width: auto;
+  max-width: 48px;
   padding: 12px;
   padding-right: 0px;
 }
