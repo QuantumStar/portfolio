@@ -35,7 +35,7 @@ a:-webkit-any-link {
   border-bottom-right-radius: 10px;
   border-left: solid 2px rgba(255, 144, 0, 1);
   border-bottom: solid 2px rgba(255, 144, 0, 1);
-  border-right: solid rgba(255, 144, 0, 0.7);
+  border-right: solid rgba(255, 144, 0, 1);
   right: 0px;
   left: 0px;
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -336,8 +336,15 @@ a:hover{
   display: flex;
   height: 120px;
   width: 160px;
-  margin: 16px;
+  margin: 8px;
   border-radius: 10px;
   border: solid 2px white;
+  filter: grayscale(85%);
+  transition: 0.25s;
+}
 
+.hardwareGallery img:hover {
+  border: ridge 6px rgba(255, 144, 0, 1);
+  margin: 4px;
+  filter: none;
 }
