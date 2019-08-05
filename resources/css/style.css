@@ -293,3 +293,51 @@ a:hover{
   height: 100%;
   justify-content: center;
 }
+
+
+
+
+.handheldPi {
+  display: flex;
+  flex-direction: row;
+  margin: 96px 16px 16px 16px;
+  width: auto;
+  height: auto;
+  text-shadow: none;
+  justify-content: flex-start;
+  border: solid 2px white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
+  background-color: silver;
+  word-break: break-all;
+  font-weight: bold;
+}
+
+.hardwareContent {
+  max-width: 100%;
+  justify-content: flex-start;
+}
+
+.handheldPi h1 {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+
+.hardwareGallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hardwareGallery img {
+  display: flex;
+  height: 120px;
+  width: 160px;
+  margin: 16px;
+  border-radius: 10px;
+  border: solid 2px white;
+
+}
