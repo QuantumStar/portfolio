@@ -301,6 +301,7 @@ a:hover{
   display: flex;
   flex-direction: row;
   margin: 96px 16px 16px 16px;
+  padding-bottom: 8px;
   width: auto;
   height: auto;
   text-shadow: none;
@@ -340,11 +341,13 @@ a:hover{
   border-radius: 10px;
   border: solid 2px white;
   filter: grayscale(85%);
-  transition: 0.25s;
+  transition: 0.1s;
 }
 
 .hardwareGallery img:hover {
   border: ridge 6px rgba(255, 144, 0, 1);
-  margin: 4px;
+  height: 112px;
+  width: 152px;
   filter: none;
+  transform: scale(1.15);
 }
