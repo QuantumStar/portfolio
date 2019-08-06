@@ -297,7 +297,7 @@ a:hover{
 
 
 
-.handheldPi {
+.handheldPi, .deskLights {
   display: flex;
   flex-direction: row;
   margin: 96px 16px 16px 16px;
@@ -314,12 +314,16 @@ a:hover{
   font-weight: bold;
 }
 
+.deskLights {
+  margin: 32px 16px 16px 16px;
+}
+
 .hardwareContent {
   max-width: 100%;
   justify-content: flex-start;
 }
 
-.handheldPi h1 {
+.hardwareContent h1 {
   color: white;
   text-shadow: 2px 2px 2px black;
   margin-top: 16px;
