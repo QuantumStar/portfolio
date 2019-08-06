@@ -315,7 +315,7 @@ a:hover{
 }
 
 .deskLights {
-  margin: 32px 16px 16px 16px;
+  margin: 32px 16px 64px 16px;
 }
 
 .hardwareContent {
@@ -349,7 +349,7 @@ a:hover{
 }
 
 .hardwareGallery img:hover {
-  border: ridge 6px rgba(255, 144, 0, 1);
+  border: ridge 6px rgba(255, 154, 0, 1);
   height: 112px;
   width: 152px;
   filter: none;
