@@ -301,7 +301,7 @@ a:hover{
   justify-content: center;
 }
 
-.handheldPi, .deskLights, .aboutText, .microbitCase {
+.handheldPi, .deskLights, .aboutText, .microbitCase, .kittyBox {
   display: flex;
   flex-direction: row;
   margin: 96px 16px 16px 16px;
@@ -323,7 +323,7 @@ a:hover{
 }
 
 .hardwareContent {
-  max-width: 100%;
+  width: 100%;
   justify-content: flex-start;
   padding-left: 16px;
   padding-right: 16px;
